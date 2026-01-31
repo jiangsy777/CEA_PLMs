@@ -2,7 +2,7 @@
 We developed the Coupled Epistatic Algorithm (CEA) and integrated it with PLMs to uncover functional and adaptive epistatic mutations in IAV HA. It fully covers known binding sites and reveals their interactions with scaffold regions, establishing an integrated framework for predicting host adaptation and pandemic risk.
 This package provides an pipeline of data parsing, coupled epistatic algorithm to select coupled epistatic site pairs and pairwise mutations, ESM-2 fine-tuning, vBERT-based classifier establishment, re-selection based on mutation effect and adaptation shift and benchmarking of the integrated workflow.
 
-Due to GitHub's limitations on the number and size of uploaded files, please download the complete dataset and code from Zenodo. Only the main code is uploaded to GitHub. To use the code, please download the data folder and the subfolders and .csv files in other folders from Zenodo first. These files should be placed in the corresponding folder before running the GitHub code.  
+Due to GitHub's limitations on the number and size of uploaded files, please download the complete dataset and code from Zenodo (https://doi.org/10.5281/zenodo.18437264). Only the main code is uploaded to GitHub. To use the code, please download the data folder and the subfolders and .csv files in other folders from Zenodo first. These files should be placed in the corresponding folder before running the GitHub code.  
 
 ## Data parsing of the IAV HA sequences and alignment with the reference numbering scheme (reference numbering scheme PMID: 25391151)
 1. Amino acid sequence translation and cleaning of IAV HA sequences
