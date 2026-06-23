@@ -1,0 +1,31 @@
+# ==========================================
+# requirements.txt for ESM2 Fine-tuning (ESM2_ft)
+# Recommended Python Version: 3.12
+# ==========================================
+
+# Deep Learning & Model Hub
+torch>=2.0.0
+transformers==4.55.2
+accelerate==1.10.0
+datasets==4.0.0
+huggingface-hub==0.34.4
+safetensors==0.6.2
+tokenizers==0.21.4
+hf-xet==1.1.7
+
+# Bioinformatics & Data Science
+biopython==1.78
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.6.1
+imbalanced-learn==0.12.3
+gensim==4.3.3
+
+# Interactive Dashboard & Visualization
+streamlit==1.37.1
+matplotlib==3.9.2
+seaborn==0.13.2
+bokeh==3.6.0
+altair==5.0.1
+plotly==5.24.1
